@@ -32,6 +32,7 @@ while 2<=q:
         break             
     elif q%z==1:
         print("prime",end=" , ")
+        break
 while True:
     if q%2==0:
         print("even")
