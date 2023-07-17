@@ -19,8 +19,27 @@ while i<=3:
     print(x)
 
 # --------------------------------------------
+#Q2
 
-   
+q=int(input('inter the number : '))
+while 2<=q:
+    z=2
+    if q==2:
+        print("prime and even ")
+    elif q%z==0:
+        print("not prime",end=" , ")
+        z+=1
+        break             
+    elif q%z==1:
+        print("prime",end=" , ")
+while True:
+    if q%2==0:
+        print("even")
+        break
+    else :
+        print("odd")  
+        break
+    
 
 
 
